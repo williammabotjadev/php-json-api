@@ -27,6 +27,8 @@ class HeartBeatsController extends Controller
             'seqNumber' => $request['seqNumber']
         ];
 
+        
+
         $heartbeat = HeartBeat::create($heartbeat_data);
         $heartbeat->save();
 

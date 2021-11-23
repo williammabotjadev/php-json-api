@@ -13,7 +13,7 @@ class CreateHeartbeatsTable extends Migration
      */
     public function up()
     {
-        Schema::create('heartbeats', function (Blueprint $table) {
+        Schema::create('heart_beats', function (Blueprint $table) {
             $table->increments('id');
             $table->string('device');
             $table->string('time');
@@ -36,6 +36,6 @@ class CreateHeartbeatsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('heartbeats');
+        Schema::dropIfExists('heart_beats');
     }
 }
