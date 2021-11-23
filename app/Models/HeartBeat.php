@@ -8,4 +8,17 @@ use Illuminate\Database\Eloquent\Model;
 class HeartBeat extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+       "device",
+       "time",
+       "snr",
+       "station",
+       "data",
+       "avgSnr",
+       "lat",
+       "lng",
+       "rssi",
+       "seqNumber"
+    ];
 }
