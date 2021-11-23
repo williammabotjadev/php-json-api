@@ -14,9 +14,9 @@
                         </div>
                     @endif
 
-                    <h3 style="text-align: center">{{ __('HeartBeats') }}</h3>
+                    <h3 style="text-align: center">{{ __('Latest HeartBeats') }}</h3>
                     <br>
-                    $heartbeats
+                    {{ $heartbeats }}
                 </div>
             </div>
         </div>
