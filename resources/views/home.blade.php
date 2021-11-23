@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <h3 style="text-align: center">{{ __('HeartBeats') }}</h3>
+                    <br>
+                    $heartbeats
                 </div>
             </div>
         </div>
