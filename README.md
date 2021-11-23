@@ -25,4 +25,6 @@
     <li>You can login with any user account you create, feel free to register to view the captured heartbeats on the dashboard, left out user Factory for Brevity</li>
 
 </ul>
+<br>
+<h4><strong>Notes: </strong><span>Use POST method to create a Request</span></h4>
 <h3>Enjoy!!!</h3>
