@@ -22,6 +22,14 @@
                         <tr>
                             <td class="px-5"><h6><strong>{{ $heartbeat->device }}</strong></h6></td>
                             <td class="px-5"><h6><strong>{{ $heartbeat->time }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->snr }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->station }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->data }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->avgSnr }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->lat }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->lng }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->rssi }}</strong></h6></td>
+                            <td class="px-5"><h6><strong>{{ $heartbeat->seqNumber }}</strong></h6></td>
                         </tr>
                 @endforeach
             </table>
