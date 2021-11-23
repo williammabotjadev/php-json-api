@@ -22,7 +22,7 @@
     <li>Run PHP Artisan Serve</li>
     <li>Your Local Site is running at localhost:8000</li>
     <li>Use Postman or any client to send the Spec JSON Payload to localhost:8000/capture-heartbeat</li>
-    <li>You can login with any user account, feel free to register to view the captured heartbeats on the dashboard</li>
+    <li>You can login with any user account you create, feel free to register to view the captured heartbeats on the dashboard, left out user Factory for Brevity</li>
 
 </ul>
 <h3>Enjoy!!!</h3>
