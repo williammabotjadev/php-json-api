@@ -26,5 +26,5 @@
 
 </ul>
 <br>
-<h4><strong>Notes: </strong><span>Use POST method to create a Request</span></h4>
+<h4><strong>Notes: </strong><span>Use POST method to create a Request, There is an option with Passport and Bearer Tokens, We can also try implement the request with the Http Client interfacing with a list of Headers</span></h4>
 <h3>Enjoy!!!</h3>
