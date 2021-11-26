@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/capture-heartbeat', [App\Http\Controllers\HeartBeatsController::class, 'store'])->name('create-heartbeat');
+// Route::post('/capture-heartbeat', [App\Http\Controllers\HeartBeatsController::class, 'store'])->name('create-heartbeat');
 
 Auth::routes();
 

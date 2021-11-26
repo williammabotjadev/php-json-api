@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/capture-heartbeat', [App\Http\Controllers\HeartBeatsController::class, 'store'])->name('create-heartbeat');
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

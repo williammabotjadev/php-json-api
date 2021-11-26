@@ -34,6 +34,8 @@ class HeartBeatsController extends Controller
 
         $heartbeats = HeartBeat::all();
 
-        return view('home', ['heartbeats' => $heartbeats]);
+        return response->json([
+            "message" => "HeartBeat Captured"
+        ]);
     }
 }
