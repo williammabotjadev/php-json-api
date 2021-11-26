@@ -32,7 +32,7 @@ class HeartBeatsController extends Controller
         $heartbeat = HeartBeat::create($heartbeat_data);
         $heartbeat->save();
 
-        $heartbeats = HeartBeat::all();
+        // $heartbeats = HeartBeat::all();
 
         return response()->json([
             "message" => "HeartBeat Captured"
