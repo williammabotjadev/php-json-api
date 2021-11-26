@@ -46,7 +46,7 @@
                 @endforeach
             </table>
             @else 
-                <h3 class="mt-5 mb-5">No HeartBeats Data Yet</h3>
+                <h3 class="mr-lg-5 mt-5 mb-5" style="text-align: center">No HeartBeats Data Yet</h3>
             @endif
                 </div>
             </div>
